@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Export 8 Inc. | International Shipping & Logistics",
+    "description": "Air and ocean freight from the USA and Spain to Venezuela. End-to-end logistics since 2005."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "solutions": "Solutions",
+    "network": "Global Network",
+    "industries": "Industries",
+    "quote": "Request a Quote",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "brand": "Export 8 Inc.",
+    "title": "Your logistics bridge between the USA, Spain, and Venezuela",
+    "subtitle": "Air freight, ocean freight, and online shopping with real tracking since 2005.",
+    "cta": "Quote via WhatsApp"
+  },
+  "about": {
+    "id": "about",
+    "eyebrow": "Our story",
+    "title": "Connecting markets since 2005",
+    "body": "Export 8 Inc. was built with a clear mission: make international trade into Venezuela simple, secure, and transparent. More than two decades later, we still move air and ocean cargo from the United States and Spain with the same personal care.",
+    "points": [
+      "20+ years of operational experience",
+      "Coverage USA / Spain → Venezuela",
+      "Personalized support on every shipment"
+    ]
+  },
+  "services": {
+    "id": "services",
+    "eyebrow": "What we do",
+    "title": "Logistics services built around you",
+    "subtitle": "Clear solutions for individuals and businesses.",
+    "items": [
+      {
+        "title": "Air Freight",
+        "description": "Faster transit times and priority on key routes into Venezuela."
+      },
+      {
+        "title": "Ocean Freight",
+        "description": "LCL and FCL options with competitive rates and full control."
+      },
+      {
+        "title": "Online Shopping",
+        "description": "We buy, receive, and forward your products from the USA."
+      },
+      {
+        "title": "End-to-End Logistics",
+        "description": "Pickup, warehousing, documentation, and final delivery."
+      }
+    ]
+  },
+  "solutions": {
+    "id": "solutions",
+    "eyebrow": "Solutions",
+    "title": "Operations designed to flow",
+    "subtitle": "Simple processes, clear communication, and visibility at every stage.",
+    "items": [
+      {
+        "title": "Door to door",
+        "description": "From pickup to delivery at destination."
+      },
+      {
+        "title": "Cargo consolidation",
+        "description": "Optimize costs by grouping shipments efficiently."
+      },
+      {
+        "title": "Customs guidance",
+        "description": "Document support to help avoid delays."
+      }
+    ]
+  },
+  "network": {
+    "id": "network",
+    "eyebrow": "Global network",
+    "title": "Operational presence where it matters",
+    "subtitle": "Strategic hubs to move your cargo with confidence.",
+    "hubs": [
+      { "city": "Miami", "role": "Primary USA hub" },
+      { "city": "Spain", "role": "Europe origin" },
+      { "city": "Venezuela", "role": "Destination & delivery" }
+    ]
+  },
+  "industries": {
+    "id": "industries",
+    "eyebrow": "Industries",
+    "title": "Sectors we support",
+    "subtitle": "Experience across high-volume commercial categories.",
+    "items": [
+      "Retail & e-commerce",
+      "Automotive & parts",
+      "Tech & electronics",
+      "Home & consumer goods",
+      "Apparel & fashion",
+      "Industrial & machinery"
+    ]
+  },
+  "quote": {
+    "id": "quote",
+    "eyebrow": "Quote",
+    "title": "Get your quote in minutes",
+    "subtitle": "Share origin, destination, and cargo type. We reply on WhatsApp.",
+    "cta": "Message on WhatsApp",
+    "note": "Fast replies during business hours."
+  },
+  "contact": {
+    "id": "contact",
+    "eyebrow": "Contact",
+    "title": "Let's talk about your next shipment",
+    "subtitle": "Based in Miami and ready to help.",
+    "addressLabel": "Office",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "socialLabel": "Social"
+  },
+  "footer": {
+    "tagline": "International logistics with a human focus.",
+    "rights": "All rights reserved.",
+    "follow": "Follow us"
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp",
+    "message": "Hi Export 8 Inc., I'd like a shipping quote."
+  }
+}

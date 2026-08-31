@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Export 8 Inc. | Envíos y Logística Internacional",
+    "description": "Envíos aéreos y marítimos desde USA y España hacia Venezuela. Logística integral desde 2005."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "solutions": "Soluciones",
+    "network": "Red Global",
+    "industries": "Industrias",
+    "quote": "Cotizar",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "brand": "Export 8 Inc.",
+    "title": "Tu puente logístico entre USA, España y Venezuela",
+    "subtitle": "Envíos aéreos, marítimos y compras online con seguimiento real desde 2005.",
+    "cta": "Cotizar por WhatsApp"
+  },
+  "about": {
+    "id": "about",
+    "eyebrow": "Nuestra historia",
+    "title": "Conectando mercados desde 2005",
+    "body": "Export 8 Inc. nació con una misión clara: hacer que el comercio internacional hacia Venezuela sea simple, seguro y transparente. Más de dos décadas después, seguimos moviendo carga aérea y marítima desde Estados Unidos y España con la misma cercanía de siempre.",
+    "points": [
+      "Más de 20 años de experiencia operativa",
+      "Cobertura USA / España → Venezuela",
+      "Atención personalizada en cada envío"
+    ]
+  },
+  "services": {
+    "id": "services",
+    "eyebrow": "Lo que hacemos",
+    "title": "Servicios logísticos a tu medida",
+    "subtitle": "Soluciones claras para particulares y empresas.",
+    "items": [
+      {
+        "title": "Envío Aéreo",
+        "description": "Tiempos reducidos y prioridad en rutas clave hacia Venezuela."
+      },
+      {
+        "title": "Envío Marítimo",
+        "description": "Carga consolidada y FCL con costos competitivos y control total."
+      },
+      {
+        "title": "Compras Online",
+        "description": "Compramos, recibimos y reenviamos tus productos desde USA."
+      },
+      {
+        "title": "Logística Integral",
+        "description": "Recolecta, almacenamiento, documentación y entrega final."
+      }
+    ]
+  },
+  "solutions": {
+    "id": "solutions",
+    "eyebrow": "Soluciones",
+    "title": "Operaciones pensadas para fluir",
+    "subtitle": "Procesos simples, comunicación clara y visibilidad en cada etapa.",
+    "items": [
+      {
+        "title": "Puerta a puerta",
+        "description": "Desde la recolección hasta la entrega en destino."
+      },
+      {
+        "title": "Consolidación de carga",
+        "description": "Optimiza costos agrupando envíos de forma eficiente."
+      },
+      {
+        "title": "Asesoría aduanal",
+        "description": "Acompañamiento documental para evitar retrasos."
+      }
+    ]
+  },
+  "network": {
+    "id": "network",
+    "eyebrow": "Red global",
+    "title": "Presencia operativa donde importa",
+    "subtitle": "Hubs estratégicos para mover tu carga con confianza.",
+    "hubs": [
+      { "city": "Miami", "role": "Hub principal USA" },
+      { "city": "España", "role": "Origen Europa" },
+      { "city": "Venezuela", "role": "Destino y entrega" }
+    ]
+  },
+  "industries": {
+    "id": "industries",
+    "eyebrow": "Industrias",
+    "title": "Sectores que acompañamos",
+    "subtitle": "Experiencia en categorías de alto movimiento comercial.",
+    "items": [
+      "Retail y e-commerce",
+      "Automotriz y repuestos",
+      "Tecnología y electrónicos",
+      "Hogar y consumo",
+      "Textil y moda",
+      "Industrial y maquinaria"
+    ]
+  },
+  "quote": {
+    "id": "quote",
+    "eyebrow": "Cotización",
+    "title": "Solicita tu cotización en minutos",
+    "subtitle": "Cuéntanos origen, destino y tipo de carga. Te respondemos por WhatsApp.",
+    "cta": "Escribir por WhatsApp",
+    "note": "Respuesta ágil en horario operativo."
+  },
+  "contact": {
+    "id": "contact",
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu próximo envío",
+    "subtitle": "Estamos en Miami y listos para ayudarte.",
+    "addressLabel": "Oficina",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono",
+    "socialLabel": "Redes"
+  },
+  "footer": {
+    "tagline": "Logística internacional con enfoque humano.",
+    "rights": "Todos los derechos reservados.",
+    "follow": "Síguenos"
+  },
+  "whatsapp": {
+    "label": "Chatear por WhatsApp",
+    "message": "Hola Export 8 Inc., quiero cotizar un envío."
+  }
+}
