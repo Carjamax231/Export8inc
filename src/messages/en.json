@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Export 8 Inc. | International Shipping & Logistics",
-    "description": "Air and ocean freight from the USA and Spain to Venezuela. End-to-end logistics since 2005."
+    "description": "Door-to-door logistics from the USA and Spain to Venezuela, Latin America, and the Caribbean. Venezuelan company with 20+ years of experience."
   },
   "nav": {
     "home": "Home",
@@ -17,95 +17,119 @@
   },
   "hero": {
     "brand": "Export 8 Inc.",
-    "title": "Your logistics bridge between the USA, Spain, and Venezuela",
-    "subtitle": "Air freight, ocean freight, and online shopping with real tracking since 2005.",
+    "title": "Your logistics ally from the USA and Spain to Venezuela and Latin America",
+    "subtitle": "Venezuelan company established in 2005. Purchasing, consolidation, international transport, and door-to-door delivery with personalized support.",
     "cta": "Quote via WhatsApp"
   },
   "about": {
     "id": "about",
     "eyebrow": "Our story",
-    "title": "Connecting markets since 2005",
-    "body": "Export 8 Inc. was built with a clear mission: make international trade into Venezuela simple, secure, and transparent. More than two decades later, we still move air and ocean cargo from the United States and Spain with the same personal care.",
+    "title": "Over 20 years connecting markets",
+    "body": "Since 2005, we have built expertise in international trade, logistics, and transport. We began serving import and export needs and, over time, developed an integrated network for individual and corporate clients. Today we coordinate every stage — acquisition, consolidation, transport, customs processes, and final delivery — with one clear goal: simplify and streamline your international operations.",
     "points": [
-      "20+ years of operational experience",
-      "Coverage USA / Spain → Venezuela",
-      "Personalized support on every shipment"
-    ]
+      "Venezuelan company",
+      "Coverage USA / Spain → Venezuela, LatAm & the Caribbean",
+      "Personalized support for individuals and businesses",
+      "Trusted long-term strategic partner"
+    ],
+    "cta": "View services"
   },
   "services": {
     "id": "services",
     "eyebrow": "What we do",
-    "title": "Logistics services built around you",
-    "subtitle": "Clear solutions for individuals and businesses.",
+    "title": "Integrated logistics services",
+    "subtitle": "Flexible solutions for individuals and businesses, from purchase to delivery.",
     "items": [
       {
         "title": "Air Freight",
-        "description": "Faster transit times and priority on key routes into Venezuela."
+        "description": "Priority routes from the USA and Spain with optimized transit to Venezuela and the region."
       },
       {
         "title": "Ocean Freight",
-        "description": "LCL and FCL options with competitive rates and full control."
+        "description": "LCL and FCL options with competitive rates and tracking at every stage."
       },
       {
-        "title": "Online Shopping",
-        "description": "We buy, receive, and forward your products from the USA."
+        "title": "Purchasing & Acquisition",
+        "description": "We buy, receive, and manage your products from the United States."
       },
       {
         "title": "End-to-End Logistics",
-        "description": "Pickup, warehousing, documentation, and final delivery."
+        "description": "Warehousing, consolidation, documentation, and coordination through final delivery."
       }
-    ]
+    ],
+    "cta": "Request a quote"
   },
   "solutions": {
     "id": "solutions",
     "eyebrow": "Solutions",
-    "title": "Operations designed to flow",
-    "subtitle": "Simple processes, clear communication, and visibility at every stage.",
+    "title": "End-to-end door-to-door operations",
+    "subtitle": "We coordinate every phase so your cargo arrives without friction.",
     "items": [
       {
         "title": "Door to door",
-        "description": "From pickup to delivery at destination."
+        "description": "From acquisition and pickup to delivery at your specified address."
       },
       {
         "title": "Cargo consolidation",
-        "description": "Optimize costs by grouping shipments efficiently."
+        "description": "Warehousing and shipment grouping to optimize costs and timelines."
       },
       {
-        "title": "Customs guidance",
-        "description": "Document support to help avoid delays."
+        "title": "Customs coordination",
+        "description": "Guidance and support through customs processes to help avoid delays."
       }
-    ]
+    ],
+    "cta": "Request a quote"
   },
   "network": {
     "id": "network",
     "eyebrow": "Global network",
-    "title": "Operational presence where it matters",
-    "subtitle": "Strategic hubs to move your cargo with confidence.",
+    "title": "Infrastructure and strategic alliances",
+    "subtitle": "A partner network in the USA and internationally, with warehouses, carriers, and customs agents for tailored solutions.",
     "hubs": [
       { "city": "Miami", "role": "Primary USA hub" },
       { "city": "Spain", "role": "Europe origin" },
-      { "city": "Venezuela", "role": "Destination & delivery" }
-    ]
+      { "city": "Venezuela", "role": "Primary destination & regional delivery" }
+    ],
+    "cta": "Contact us"
   },
   "industries": {
     "id": "industries",
     "eyebrow": "Industries",
     "title": "Sectors we support",
-    "subtitle": "Experience across high-volume commercial categories.",
+    "subtitle": "Experience across high-volume commercial and industrial categories.",
     "items": [
-      "Retail & e-commerce",
-      "Automotive & parts",
-      "Tech & electronics",
-      "Home & consumer goods",
-      "Apparel & fashion",
-      "Industrial & machinery"
-    ]
+      {
+        "title": "Automotive parts & spares",
+        "description": "Vehicle components, parts, and accessories that require specialized shipping and accurate documentation."
+      },
+      {
+        "title": "Online shopping & e-commerce",
+        "description": "Products purchased from US online stores that we consolidate, manage, and ship to destination."
+      },
+      {
+        "title": "New & used machinery",
+        "description": "Heavy equipment and industrial or commercial machinery with end-to-end coordinated logistics."
+      },
+      {
+        "title": "Industrial equipment",
+        "description": "Tools, machinery, and supplies for private and industrial production operations."
+      },
+      {
+        "title": "Tech & electronics",
+        "description": "Devices, components, and electronic equipment handled with care during international transport."
+      },
+      {
+        "title": "Retail & consumer goods",
+        "description": "Mass-market and retail products imported for individuals and businesses in Venezuela and the region."
+      }
+    ],
+    "cta": "Get a shipping quote"
   },
   "quote": {
     "id": "quote",
     "eyebrow": "Quote",
     "title": "Get your quote in minutes",
-    "subtitle": "Share origin, destination, and cargo type. We reply on WhatsApp.",
+    "subtitle": "Share origin, destination, and cargo type. We reply on WhatsApp with a solution tailored to your needs.",
     "cta": "Message on WhatsApp",
     "note": "Fast replies during business hours."
   },
@@ -113,14 +137,19 @@
     "id": "contact",
     "eyebrow": "Contact",
     "title": "Let's talk about your next shipment",
-    "subtitle": "Based in Miami and ready to help.",
+    "subtitle": "Office in Miami, FL. We handle shipments from the USA and Spain to Venezuela, Latin America, and the Caribbean.",
     "addressLabel": "Office",
     "emailLabel": "Email",
-    "phoneLabel": "Phone",
-    "socialLabel": "Social"
+    "phoneUsaLabel": "USA",
+    "phoneVeLabel": "Venezuela",
+    "socialLabel": "Social",
+    "ctaWhatsapp": "Message on WhatsApp",
+    "ctaEmail": "Send email",
+    "emailSubject": "Quote request - Export 8 Inc.",
+    "emailBody": "Hi Export 8 Inc.,\n\nI would like to request information or a quote for a shipment.\n\nThank you."
   },
   "footer": {
-    "tagline": "International logistics with a human focus.",
+    "tagline": "More than logistics: your strategic ally in international trade.",
     "rights": "All rights reserved.",
     "follow": "Follow us"
   },

@@ -20,7 +20,7 @@ export default async function Footer() {
               className="h-12 w-12 object-contain"
             />
             <div>
-              <p className="font-display text-lg font-semibold">Export 8 Inc.</p>
+              <p className="font-heading text-lg font-semibold">Export 8 Inc.</p>
               <p className="text-sm text-white/60">{t("tagline")}</p>
             </div>
           </div>
@@ -29,19 +29,21 @@ export default async function Footer() {
             <br />
             {CONTACT.email}
             <br />
-            {CONTACT.phone}
+            {CONTACT.phonesUsa.join(" · ")}
+            <br />
+            {CONTACT.phonesVenezuela.join(" · ")}
           </p>
         </div>
 
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-cyan">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-400">
             {t("follow")}
           </p>
           <a
             href={SOCIAL.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white/85 transition-colors hover:text-cyan"
+            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white/85 transition-colors hover:text-blue-400"
           >
             <AtSign size={18} aria-hidden />
             @export8inc

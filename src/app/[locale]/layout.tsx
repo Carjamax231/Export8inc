@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Manrope, Sora } from "next/font/google";
+import { DM_Sans, Montserrat } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
-const manrope = Manrope({
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-manrope",
+  variable: "--font-dm-sans",
   display: "swap",
 });
 
-const sora = Sora({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-sora",
+  variable: "--font-montserrat",
   display: "swap",
 });
 
@@ -50,7 +50,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${manrope.variable} ${sora.variable} h-full antialiased`}
+      className={`${dmSans.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-surface font-sans text-navy">
         <NextIntlClientProvider messages={messages}>

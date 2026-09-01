@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 /**
  * Referencia de tema (Tailwind v4 usa @theme en globals.css).
- * Colores Export 8 Inc.: navy primario, cyan acento, surface fondos.
+ * Colores Export 8 Inc.: navy primario, blue-600 acento, surface fondos.
  */
 const config: Config = {
   content: [
@@ -16,20 +16,20 @@ const config: Config = {
           DEFAULT: "#0B1D36",
           deep: "#071525",
         },
-        cyan: {
-          DEFAULT: "#00B4D8",
-          dark: "#0096C7",
+        accent: {
+          DEFAULT: "#2563EB",
+          dark: "#1D4ED8",
         },
         surface: {
-          DEFAULT: "#F4F7FB",
-          soft: "#E8EEF6",
+          DEFAULT: "#F8FAFC",
+          soft: "#F1F5F9",
         },
-        muted: "#5B6B7F",
-        line: "#D7E0EC",
+        muted: "#64748B",
+        line: "#E2E8F0",
       },
       fontFamily: {
-        sans: ["var(--font-manrope)", "system-ui", "sans-serif"],
-        display: ["var(--font-sora)", "system-ui", "sans-serif"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        heading: ["var(--font-montserrat)", "system-ui", "sans-serif"],
       },
     },
   },

@@ -11,10 +11,10 @@ export default async function Solutions() {
     <section id="solutions" className="section-anchor bg-white py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="max-w-2xl">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-dark">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600">
             {t("eyebrow")}
           </p>
-          <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-navy md:text-4xl">
+          <h2 className="mt-3 font-heading text-3xl font-semibold tracking-tight text-navy md:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-base text-muted md:text-lg">{t("subtitle")}</p>
@@ -24,9 +24,9 @@ export default async function Solutions() {
           {items.map((item, index) => {
             const Icon = ICONS[index] ?? ArrowRight;
             return (
-              <div key={item.title} className="border-t-2 border-cyan pt-6">
+              <div key={item.title} className="border-t-2 border-blue-600 pt-6">
                 <Icon className="text-navy" size={24} aria-hidden />
-                <h3 className="mt-4 font-display text-xl font-semibold text-navy">
+                <h3 className="mt-4 font-heading text-xl font-semibold text-navy">
                   {item.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">

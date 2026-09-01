@@ -58,12 +58,12 @@ export default function Navbar() {
             className="h-9 w-9 rounded-sm object-cover"
             priority
           />
-          <span className="font-display text-sm font-semibold tracking-wide text-white md:text-base">
+          <span className="font-heading text-sm font-semibold tracking-wide text-white md:text-base">
             Export 8 Inc.
           </span>
         </a>
 
-        <nav className="hidden items-center gap-1 xl:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.key}
@@ -79,7 +79,7 @@ export default function Navbar() {
           <Link
             href={pathname}
             locale={otherLocale}
-            className="inline-flex items-center gap-1 rounded-md border border-cyan/40 bg-cyan/10 px-2.5 py-1.5 text-xs font-bold tracking-wide text-cyan transition-colors hover:bg-cyan hover:text-navy-deep"
+            className="inline-flex items-center gap-1 rounded-md border border-blue-500/40 bg-blue-600/10 px-2.5 py-1.5 text-xs font-bold tracking-wide text-blue-400 transition-colors hover:bg-blue-600 hover:text-white"
             aria-label={`Switch to ${otherLocale.toUpperCase()}`}
           >
             <span className={locale === "en" ? "text-white" : "opacity-60"}>
@@ -93,7 +93,7 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white xl:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white lg:hidden"
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-label={open ? t("closeMenu") : t("openMenu")}
@@ -104,7 +104,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`border-t border-white/10 bg-navy xl:hidden ${
+        className={`border-t border-white/10 bg-navy lg:hidden ${
           open ? "block animate-fade-in" : "hidden"
         }`}
       >

@@ -3,26 +3,26 @@
 :root {
   --navy: #0b1d36;
   --navy-deep: #071525;
-  --cyan: #00b4d8;
-  --cyan-dark: #0096c7;
-  --surface: #f4f7fb;
-  --surface-soft: #e8eef6;
+  --accent: #2563eb;
+  --accent-dark: #1d4ed8;
+  --surface: #f8fafc;
+  --surface-soft: #f1f5f9;
   --white: #ffffff;
-  --muted: #5b6b7f;
-  --line: #d7e0ec;
+  --muted: #64748b;
+  --line: #e2e8f0;
 }
 
 @theme inline {
   --color-navy: var(--navy);
   --color-navy-deep: var(--navy-deep);
-  --color-cyan: var(--cyan);
-  --color-cyan-dark: var(--cyan-dark);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
   --color-surface: var(--surface);
   --color-surface-soft: var(--surface-soft);
   --color-muted: var(--muted);
   --color-line: var(--line);
-  --font-sans: var(--font-manrope);
-  --font-display: var(--font-sora);
+  --font-sans: var(--font-dm-sans);
+  --font-heading: var(--font-montserrat);
 }
 
 html {
@@ -46,11 +46,11 @@ html {
 body {
   background: var(--surface);
   color: var(--navy);
-  font-family: var(--font-manrope), system-ui, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--cyan) 35%, white);
+  background: color-mix(in srgb, var(--accent) 25%, white);
   color: var(--navy-deep);
 }
 
