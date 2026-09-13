@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="section-anchor relative flex min-h-[100svh] items-end overflow-hidden bg-navy-deep"
+      className="section-anchor relative flex min-h-[100svh] items-center overflow-hidden bg-navy-deep"
     >
       <div
         className="absolute right-0 top-0 h-full w-1/3 bg-blue-600/10"
@@ -24,14 +24,14 @@ export default function Hero() {
         aria-hidden
       />
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-20 pt-32 md:px-6 md:pb-28 md:pt-36">
-        <p className="animate-fade-up font-heading text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-16 pt-28 md:px-6 md:pb-20 md:pt-32">
+        <p className="animate-fade-up font-heading text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
           {t("brand")}
         </p>
-        <h1 className="animate-fade-up mt-4 max-w-3xl font-heading text-xl font-medium leading-snug text-white/95 sm:text-2xl md:text-3xl [animation-delay:120ms]">
+        <h1 className="animate-fade-up mt-5 max-w-3xl font-heading text-2xl font-medium leading-snug text-white/95 sm:text-3xl md:text-4xl [animation-delay:120ms]">
           {t("title")}
         </h1>
-        <p className="animate-fade-up mt-4 max-w-xl text-base leading-relaxed text-white/80 md:text-lg [animation-delay:220ms]">
+        <p className="animate-fade-up mt-5 max-w-xl text-base leading-relaxed text-white/80 md:text-lg [animation-delay:220ms]">
           {t("subtitle")}
         </p>
         <div className="animate-fade-up mt-8 [animation-delay:320ms]">
