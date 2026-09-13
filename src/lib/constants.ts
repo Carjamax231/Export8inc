@@ -12,5 +12,5 @@ export const CONTACT = {
   address: "8440 NW 66TH ST, Miami, FL 33166",
   email: "export8info@gmail.com",
   phonesUsa: ["+1 (305) 874-7644", "+1 (805) 881-3812"] as const,
-  phonesVenezuela: ["+58 412-9060158"] as const,
+  phonesVenezuela: ["+58 412-9060158", "+58 424-1965093"] as const,
 } as const;
