@@ -10,7 +10,6 @@ const NAV_ITEMS = [
   { href: "#home", key: "home" as const },
   { href: "#about", key: "about" as const },
   { href: "#services", key: "services" as const },
-  { href: "#solutions", key: "solutions" as const },
   { href: "#network", key: "network" as const },
   { href: "#industries", key: "industries" as const },
   { href: "#quote", key: "quote" as const },
@@ -53,9 +52,9 @@ export default function Navbar() {
           <Image
             src="/images/logo-diamond.jpg"
             alt="Export 8 Inc."
-            width={36}
-            height={36}
-            className="h-9 w-9 rounded-sm object-cover"
+            width={48}
+            height={48}
+            className="h-11 w-11 rounded-sm object-cover md:h-12 md:w-12"
             priority
           />
           <span className="font-heading text-sm font-semibold tracking-wide text-white md:text-base">
