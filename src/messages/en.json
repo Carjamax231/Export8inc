@@ -7,7 +7,6 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "solutions": "Solutions",
     "network": "Global Network",
     "industries": "Industries",
     "quote": "Request a Quote",
@@ -57,25 +56,21 @@
         "description": "Warehousing, consolidation, documentation, and coordination through final delivery."
       }
     ],
-    "cta": "Request a quote"
-  },
-  "solutions": {
-    "id": "solutions",
-    "eyebrow": "Solutions",
-    "title": "End-to-end door-to-door operations",
-    "subtitle": "We coordinate every phase so your cargo arrives without friction.",
-    "items": [
+    "doorToDoor": {
+      "eyebrow": "Door to door",
+      "title": "International door-to-door services",
+      "subtitle": "Primary corridors with end-to-end coordination, from origin through final delivery."
+    },
+    "routes": [
       {
-        "title": "Door to door",
-        "description": "From acquisition and pickup to delivery at your specified address."
+        "from": "USA",
+        "to": "Venezuela",
+        "label": "Door-to-door route from the USA to Venezuela"
       },
       {
-        "title": "Cargo consolidation",
-        "description": "Warehousing and shipment grouping to optimize costs and timelines."
-      },
-      {
-        "title": "Customs coordination",
-        "description": "Guidance and support through customs processes to help avoid delays."
+        "from": "Spain",
+        "to": "Venezuela",
+        "label": "Door-to-door route from Spain to Venezuela"
       }
     ],
     "cta": "Request a quote"
@@ -129,9 +124,9 @@
     "id": "quote",
     "eyebrow": "Quote",
     "title": "Get your quote in minutes",
-    "subtitle": "Share origin, destination, and cargo type. We reply on WhatsApp with a solution tailored to your needs.",
+    "subtitle": "Share origin, destination, and cargo type. We follow up with a personalized call: one-to-one attention to understand your needs and guide you every step of the way.",
     "cta": "Message on WhatsApp",
-    "note": "Fast replies during business hours."
+    "note": "You speak directly with our team."
   },
   "contact": {
     "id": "contact",

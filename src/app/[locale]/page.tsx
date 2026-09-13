@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import Solutions from "@/components/Solutions";
 import GlobalNetwork from "@/components/GlobalNetwork";
 import Industries from "@/components/Industries";
 import Quote from "@/components/Quote";
@@ -26,7 +25,6 @@ export default async function HomePage({ params }: Props) {
         <Hero />
         <About />
         <Services />
-        <Solutions />
         <GlobalNetwork />
         <Industries />
         <Quote />

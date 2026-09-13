@@ -7,7 +7,6 @@
     "home": "Inicio",
     "about": "Nosotros",
     "services": "Servicios",
-    "solutions": "Soluciones",
     "network": "Red Global",
     "industries": "Industrias",
     "quote": "Cotizar",
@@ -57,25 +56,21 @@
         "description": "Almacenaje, consolidación, documentación y coordinación hasta la entrega final."
       }
     ],
-    "cta": "Solicitar cotización"
-  },
-  "solutions": {
-    "id": "solutions",
-    "eyebrow": "Soluciones",
-    "title": "Operaciones door-to-door de punta a punta",
-    "subtitle": "Coordinamos cada fase para que tu carga llegue sin fricciones.",
-    "items": [
+    "doorToDoor": {
+      "eyebrow": "Puerta a puerta",
+      "title": "Servicios puerta a puerta internacionales",
+      "subtitle": "Rutas principales con coordinación de punta a punta, desde el origen hasta la entrega en destino."
+    },
+    "routes": [
       {
-        "title": "Puerta a puerta",
-        "description": "Desde la adquisición y recolección hasta la entrega en la dirección indicada."
+        "from": "USA",
+        "to": "Venezuela",
+        "label": "Ruta puerta a puerta desde USA hacia Venezuela"
       },
       {
-        "title": "Consolidación de carga",
-        "description": "Almacenes y agrupación de envíos para optimizar costos y tiempos."
-      },
-      {
-        "title": "Coordinación aduanera",
-        "description": "Asesoría y acompañamiento en procesos aduanales para evitar retrasos."
+        "from": "España",
+        "to": "Venezuela",
+        "label": "Ruta puerta a puerta desde España hacia Venezuela"
       }
     ],
     "cta": "Solicitar cotización"
@@ -129,9 +124,9 @@
     "id": "quote",
     "eyebrow": "Cotización",
     "title": "Solicita tu cotización en minutos",
-    "subtitle": "Cuéntanos origen, destino y tipo de carga. Te respondemos por WhatsApp con una solución adaptada a tu necesidad.",
+    "subtitle": "Cuéntanos origen, destino y tipo de carga. Te respondemos con una llamada personalizada: atención one-to-one para entender tu necesidad y acompañarte en cada paso.",
     "cta": "Escribir por WhatsApp",
-    "note": "Respuesta ágil en horario operativo."
+    "note": "Hablas directamente con nuestro equipo."
   },
   "contact": {
     "id": "contact",
