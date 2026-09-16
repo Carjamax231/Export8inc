@@ -124,9 +124,28 @@
     "id": "quote",
     "eyebrow": "Cotización",
     "title": "Solicita tu cotización en minutos",
-    "subtitle": "Cuéntanos origen, destino y tipo de carga. Te respondemos con una llamada personalizada: atención one-to-one para entender tu necesidad y acompañarte en cada paso.",
-    "cta": "Escribir por WhatsApp",
-    "note": "Hablas directamente con nuestro equipo."
+    "subtitle": "Completa el formulario con tus datos y la ruta que necesitas. Nuestro equipo te contactará con una llamada personalizada: atención one-to-one para entender tu necesidad y acompañarte en cada paso.",
+    "note": "Tras enviar tu solicitud, hablas directamente con una persona de nuestro equipo.",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "phoneLabel": "Teléfono / WhatsApp",
+      "phonePlaceholder": "+58 412 0000000",
+      "routeLabel": "Ruta",
+      "routePlaceholder": "Selecciona una opción",
+      "routes": {
+        "usa-venezuela": "USA ➔ Venezuela",
+        "spain-venezuela": "España ➔ Venezuela",
+        "online-shopping": "Compras Online",
+        "commercial-cargo": "Carga Comercial"
+      },
+      "submit": "Enviar cotización",
+      "submitting": "Enviando…",
+      "success": "¡Listo! Recibimos tu solicitud. Te llamaremos pronto para atenderte de forma personalizada.",
+      "error": "No pudimos enviar tu solicitud. Inténtalo de nuevo."
+    }
   },
   "contact": {
     "id": "contact",

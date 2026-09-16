@@ -124,9 +124,28 @@
     "id": "quote",
     "eyebrow": "Quote",
     "title": "Get your quote in minutes",
-    "subtitle": "Share origin, destination, and cargo type. We follow up with a personalized call: one-to-one attention to understand your needs and guide you every step of the way.",
-    "cta": "Message on WhatsApp",
-    "note": "You speak directly with our team."
+    "subtitle": "Fill out the form with your details and the route you need. Our team will follow up with a personalized call: one-to-one attention to understand your needs and guide you every step of the way.",
+    "note": "After you submit, you speak directly with someone on our team.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phoneLabel": "Phone / WhatsApp",
+      "phonePlaceholder": "+1 305 0000000",
+      "routeLabel": "Route",
+      "routePlaceholder": "Select an option",
+      "routes": {
+        "usa-venezuela": "USA ➔ Venezuela",
+        "spain-venezuela": "Spain ➔ Venezuela",
+        "online-shopping": "Online Shopping",
+        "commercial-cargo": "Commercial Cargo"
+      },
+      "submit": "Submit quote request",
+      "submitting": "Sending…",
+      "success": "All set! We received your request. We'll call you soon for personalized support.",
+      "error": "We couldn't send your request. Please try again."
+    }
   },
   "contact": {
     "id": "contact",
