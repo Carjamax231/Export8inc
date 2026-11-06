@@ -9,6 +9,7 @@ import Quote from "@/components/Quote";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import StructuredData from "@/components/StructuredData";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -20,6 +21,7 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
+      <StructuredData locale={locale} />
       <Navbar />
       <main>
         <Hero />

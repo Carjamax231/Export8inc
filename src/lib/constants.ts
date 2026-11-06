@@ -1,3 +1,6 @@
+/** Dominio canónico del sitio en producción (sin barra final). */
+export const SITE_URL = "https://www.export8.com";
+
 /** Número de WhatsApp empresarial (sin + ni espacios). */
 export const WHATSAPP_NUMBER = "584129060158";
 
